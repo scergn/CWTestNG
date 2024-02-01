@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Running Packages">
+    <test verbose="2" preserve-order="true" name="Tests Package Run">
+        <packages>
+            <package name="clarusway.tests"></package><!--Buraya belirtilen package isminin altındaki tüm testler çalışır -->
+        </packages>
+    </test>
+</suite>

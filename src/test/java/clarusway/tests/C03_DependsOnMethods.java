@@ -24,9 +24,16 @@ public class C03_DependsOnMethods {
         System.out.println("smokeTest");
     }
 
-    @Test
+    @Test//Bu test hiçbir teste bağımlı değildir
     public void independentTest(){
-
+        System.out.println("independentTest");
     }
+
+    /*
+        independentTest
+        Login Test
+        Homepage Test
+        Smoke Test
+     */
 
 }
