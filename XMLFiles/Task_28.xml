@@ -3,10 +3,10 @@
 <suite name="Parameter Test">
     <test verbose="2" preserve-order="true"
           name="Parameterized Test1">
-        <parameter name="firstName" value="john"></parameter>
-        <parameter name="lastName" value="doe"></parameter>
-        <parameter name="email" value="john@doe.com"></parameter>
-        <parameter name="password" value="john123"></parameter>
+        <parameter name="firstName" value="jack"></parameter>
+        <parameter name="lastName" value="moe"></parameter>
+        <parameter name="email" value="jackmoe@dyoq.com"></parameter>
+        <parameter name="password" value="jackmore123"></parameter>
 
         <classes>
             <class name="clarusway.tests.Task_28"></class>
@@ -15,10 +15,10 @@
     </test>
     <test verbose="2" preserve-order="true"
           name="Parameterized Test2">
-        <parameter name="firstName" value="jim"></parameter>
-        <parameter name="lastName" value="sun"></parameter>
-        <parameter name="email" value="jim@sun.com"></parameter>
-        <parameter name="password" value="jim123"></parameter>
+        <parameter name="firstName" value="richie"></parameter>
+        <parameter name="lastName" value="rich"></parameter>
+        <parameter name="email" value="richierich@yoq.com"></parameter>
+        <parameter name="password" value="richierich123"></parameter>
 
         <classes>
             <class name="clarusway.tests.Task_28"></class>

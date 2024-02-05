@@ -40,6 +40,14 @@ public class DataProviderUtils {
         return excelUtils.getDataArrayWithoutFirstRow();
 
     }
+    @DataProvider
+    public Object[][] excelDataTitleAndNote(){
+
+        ExcelUtils excelUtils = new ExcelUtils("resources/username_password.xlsx","Sheet2");
+
+        return excelUtils.getDataArrayWithoutFirstRow();
+
+    }
 
 
 

@@ -11,15 +11,12 @@ public class Task_28 extends TestBase {
     //Data Provider on https://thinking-tester-contact-list.herokuapp.com/addUser
 
     @Test
-    @Parameters({"firstName","lastName","email","password"})
-    public void Task_28(@Optional("Jim")String firstName,
-                        @Optional("Sun")String lastName,
-                        @Optional("Jim@Sun.com")String email,
-                        @Optional("jimsun123")String password) {
+    @Parameters({"firstName", "lastName", "email", "password"})
+    public void test(String firstname, String lastname, String email, String password) {
 
         driver.get("https://thinking-tester-contact-list.herokuapp.com/addUser");
-        driver.findElement(By.id("firstName")).sendKeys(firstName);
-        driver.findElement(By.id("lastName")).sendKeys(lastName);
+        driver.findElement(By.id("firstName")).sendKeys(firstname);
+        driver.findElement(By.id("lastName")).sendKeys(lastname);
         driver.findElement(By.id("email")).sendKeys(email);
         driver.findElement(By.id("password")).sendKeys(password);
         driver.findElement(By.id("submit")).click();
